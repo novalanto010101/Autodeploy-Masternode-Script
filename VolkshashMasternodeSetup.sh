@@ -29,8 +29,8 @@ unzip Volkshash.Linux.GNU.x64.0.13.2.1.zip
 sleep 5
 mkdir /root/volkshash
 mkdir /root/.volkshash
-cp /root/volkshash/volkshashd /root/volkshash
-cp /root/volkshash/volkshash-cli /root/volkshash
+cp /root/Volkshash.Linux.GNU.x64.0.13.2.1//volkshashd /root/volkshash
+cp /root/Volkshash.Linux.GNU.x64.0.13.2.1//volkshash-cli /root/volkshash
 sleep 5
 chmod -R 755 /root/volkshash
 chmod -R 755 /root/.volkshash
