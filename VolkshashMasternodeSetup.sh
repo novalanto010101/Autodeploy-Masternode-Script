@@ -19,12 +19,13 @@ sudo apt-get install libboost-all-dev -y
 sudo add-apt-repository ppa:bitcoin/bitcoin -y
 sudo apt-get update -y
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
+apt install unzip
 
 echo -e "\n\nsetup volkshashd ...\n\n"
 cd ~
 wget https://github.com/VolkshashDEV/volkshashcore/releases/download/0.13.2.1/Volkshash.Linux.GNU.x64.0.13.2.1.zip
 chmod -R 755 /root/Volkshash.Linux.GNU.x64.0.13.2.1.zip
-tar -xzf Volkshash.Linux.GNU.x64.0.13.2.1.zip
+unzip Volkshash.Linux.GNU.x64.0.13.2.1.zip
 sleep 5
 mkdir /root/volkshash
 mkdir /root/.volkshash
